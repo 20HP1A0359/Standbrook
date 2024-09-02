@@ -1,0 +1,211 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 10rem;
+  width: 100%;
+}
+
+.nav-container > .nav-link {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.home-section {
+  height: 80vh;
+  background: url("./images/sea\ image.png"), url("./images/Rectangle\ 7.png");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.home-section > .title-container > .Main-title {
+  font-size: 20px;
+  font-family: "Vollkorn", Regular;
+  text-align: center;
+  color: white;
+}
+
+.home-section > .title-container > .home-title {
+  padding: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: white;
+  font-size: 55px;
+  line-height: 5px;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  text-align: center;
+}
+
+.home-section > .title-container > .title-para {
+  padding: 0;
+  margin-top: 40px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  width: 640px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-section > .title-container > .title-para2 {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  width: 923px;
+  height: 91px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-title {
+  background: linear-gradient(to right, #00aa9e, #004d47);
+  padding: 10px;
+  border: none;
+  color: white;
+}
+
+.bottom-img {
+  position: relative;
+  bottom: -100px;
+  background-image: url("./images/overlapping.png");
+  width: 100%;
+  height: 22vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.about-section {
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+.about-section > .about-pictures {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  background-image: url("./images/Womenpic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-blend-mode: darken;
+  height: 100%;
+}
+.img-path171 {
+  width: 252px;
+  height: 414px;
+  margin-top: 100px;
+  margin-left: 310px;
+}
+
+.img-path172 {
+  width: 250px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.img-recta12 {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 360px;
+}
+.img-recta13 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 160px;
+}
+.about-section > .about-content {
+  width: 40%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: top-left;
+  height: 100%;
+  margin-top: 100px;
+  margin-left: -50px;
+}
+
+.about-title {
+  margin-left: 30px;
+  margin-top: -30px;
+  color: #004d47;
+  font-size: 20px;
+  font: Vollkorn, Regular;
+}
+.about-title1 {
+  width: 400px;
+  height: 80px;
+  line-height: 15px;
+  font-size: 25px;
+  color: #1374c4;
+}
+.about-para {
+  width: 500px;
+  color: #6b6b6b;
+  line-height: 20px;
+}
+.about-button {
+  background-color: #ee7c00;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+}
+.destination-section > .destination-about {
+  background-image: url("./images/backgrounddestination.png");
+  width: 1920px;
+  height: 1593px;
+  margin-left: 0px;
+  color: #f8f8f8;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+}
+
+.destination-section > .destination-title1 {
+  font-family: "Great Vibes", cursive;
+  color: #bbbbbb;
+  width: 277px;
+  height: 100px;
+  margin-top: 1925px;
+  margin-left: 820px;
+  font-size: 80px;
+  align-content: center;
+  position: absolute;
+}
+
+.destination-section > .destination-title2 {
+  top: 1969px;
+  left: 716px;
+  width: 488px;
+  height: 58px;
+  color: #1374c4;
+  text-align: center;
+  position: absolute;
+  font-size: 40px;
+  font-family: "Merienda", Regular;
+  letter-spacing: 0px;
+}
